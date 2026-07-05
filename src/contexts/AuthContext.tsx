@@ -40,7 +40,7 @@ interface AuthContextValue {
   updateProfile: (patch: Partial<AuthUser>) => void;
 }
 
-const STORAGE_KEY = "novaflow.session";
+const STORAGE_KEY = "kaizuodev.session";
 const AuthContext = createContext<AuthContextValue | null>(null);
 
 function getInitials(name: string) {
@@ -102,9 +102,9 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       .replace(/\b\w/g, (c) => c.toUpperCase());
     const nextUser: AuthUser = {
       id: crypto.randomUUID(),
-      fullName: fullName || "NovaFlow User",
+      fullName: fullName || "KaizuoDev User",
       email,
-      company: "NovaFlow, Inc.",
+      company: "KaizuoDev",
       phone: "",
       location: "",
       bio: "",

@@ -7,13 +7,13 @@ import { PageHero } from "@/components/site/PageHero";
 export const Route = createFileRoute("/solutions")({
   head: () => ({
     meta: [
-      { title: "Solutions — NovaFlow" },
+      { title: "Solutions — KaizuoDev" },
       {
         name: "description",
         content:
           "Solutions for project management, team collaboration, operations, customer success, analytics, and knowledge management.",
       },
-      { property: "og:title", content: "Solutions — NovaFlow" },
+      { property: "og:title", content: "Solutions — KaizuoDev" },
       {
         property: "og:description",
         content:
@@ -30,7 +30,7 @@ function SolutionsPage() {
       <PageHero
         eyebrow="Solutions"
         title="Built for the way modern teams actually work."
-        description="From product to operations, NovaFlow adapts to how your teams already work — and helps them work better together."
+        description="From product to operations, KaizuoDev adapts to how your teams already work — and helps them work better together."
       />
       <Solutions />
       <Testimonials />

@@ -95,14 +95,14 @@ export interface TeamMember {
 }
 
 export const teamMembers: TeamMember[] = [
-  { id: "tm-1", name: "Maya Chen", initials: "MC", role: "Product Designer", email: "maya@novaflow.io", status: "online" },
-  { id: "tm-2", name: "Daniel Osei", initials: "DO", role: "Mobile Engineer", email: "daniel@novaflow.io", status: "online" },
-  { id: "tm-3", name: "Priya Rao", initials: "PR", role: "Data Engineer", email: "priya@novaflow.io", status: "away" },
-  { id: "tm-4", name: "Jordan Lee", initials: "JL", role: "Project Manager", email: "jordan@novaflow.io", status: "offline" },
-  { id: "tm-5", name: "Sofia Martins", initials: "SM", role: "Marketing Lead", email: "sofia@novaflow.io", status: "online" },
-  { id: "tm-6", name: "Ethan Brooks", initials: "EB", role: "Backend Engineer", email: "ethan@novaflow.io", status: "away" },
-  { id: "tm-7", name: "Lucas Fischer", initials: "LF", role: "QA Engineer", email: "lucas@novaflow.io", status: "offline" },
-  { id: "tm-8", name: "Amara Diallo", initials: "AD", role: "Customer Success", email: "amara@novaflow.io", status: "online" },
+  { id: "tm-1", name: "Maya Chen", initials: "MC", role: "Product Designer", email: "maya@kaizuo.dev", status: "online" },
+  { id: "tm-2", name: "Daniel Osei", initials: "DO", role: "Mobile Engineer", email: "daniel@kaizuo.dev", status: "online" },
+  { id: "tm-3", name: "Priya Rao", initials: "PR", role: "Data Engineer", email: "priya@kaizuo.dev", status: "away" },
+  { id: "tm-4", name: "Jordan Lee", initials: "JL", role: "Project Manager", email: "jordan@kaizuo.dev", status: "offline" },
+  { id: "tm-5", name: "Sofia Martins", initials: "SM", role: "Marketing Lead", email: "sofia@kaizuo.dev", status: "online" },
+  { id: "tm-6", name: "Ethan Brooks", initials: "EB", role: "Backend Engineer", email: "ethan@kaizuo.dev", status: "away" },
+  { id: "tm-7", name: "Lucas Fischer", initials: "LF", role: "QA Engineer", email: "lucas@kaizuo.dev", status: "offline" },
+  { id: "tm-8", name: "Amara Diallo", initials: "AD", role: "Customer Success", email: "amara@kaizuo.dev", status: "online" },
 ];
 
 export interface FileItem {
@@ -138,7 +138,7 @@ export const notifications: NotificationItem[] = [
   { id: "n-3", title: "Task overdue", description: "\"Sync with Orbit Labs\" is due today.", time: "3h ago", read: false, kind: "warning" },
   { id: "n-4", title: "Storage almost full", description: "Your workspace is using 92% of its storage plan.", time: "6h ago", read: true, kind: "warning" },
   { id: "n-5", title: "Weekly report ready", description: "Your team's activity summary for last week is ready.", time: "Yesterday", read: true, kind: "info" },
-  { id: "n-6", title: "Welcome to NovaFlow", description: "Your workspace has been created successfully.", time: "3 days ago", read: true, kind: "success" },
+  { id: "n-6", title: "Welcome to KaizuoDev", description: "Your workspace has been created successfully.", time: "3 days ago", read: true, kind: "success" },
 ];
 
 export interface ActivityItem {

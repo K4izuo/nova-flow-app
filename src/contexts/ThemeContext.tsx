@@ -8,7 +8,7 @@ interface ThemeContextValue {
   setTheme: (theme: Theme) => void;
 }
 
-const STORAGE_KEY = "novaflow.theme";
+const STORAGE_KEY = "kaizuodev.theme";
 const ThemeContext = createContext<ThemeContextValue | null>(null);
 
 export function ThemeProvider({ children }: { children: ReactNode }) {

@@ -6,17 +6,17 @@ import { PageHero } from "@/components/site/PageHero";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact — NovaFlow" },
+      { title: "Contact — KaizuoDev" },
       {
         name: "description",
         content:
-          "Get in touch with the NovaFlow team. Talk to sales, request a demo, or ask a question — we usually reply within one business day.",
+          "Get in touch with the KaizuoDev team. Talk to sales, request a demo, or ask a question — we usually reply within one business day.",
       },
-      { property: "og:title", content: "Contact — NovaFlow" },
+      { property: "og:title", content: "Contact — KaizuoDev" },
       {
         property: "og:description",
         content:
-          "Talk to sales, request a demo, or ask a question — the NovaFlow team is here to help.",
+          "Talk to sales, request a demo, or ask a question — the KaizuoDev team is here to help.",
       },
     ],
   }),
@@ -38,7 +38,7 @@ function ContactPage() {
             <InfoRow
               icon={Mail}
               title="Email"
-              body="hello@novaflow.com"
+              body="ryusei.gates@kaizuo.dev"
               hint="We typically respond within one business day."
             />
             <InfoRow

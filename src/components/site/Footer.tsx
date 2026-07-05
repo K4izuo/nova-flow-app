@@ -10,7 +10,7 @@ export function Footer() {
             <span className="grid h-9 w-9 place-items-center rounded-xl bg-gradient-brand">
               <Sparkles className="h-4 w-4 text-white" aria-hidden />
             </span>
-            <span className="text-lg font-semibold tracking-tight">NovaFlow</span>
+            <span className="text-lg font-semibold tracking-tight">KaizuoDev</span>
           </Link>
           <p className="mt-4 max-w-sm text-sm text-muted-foreground">
             The modern productivity platform that helps teams simplify workflows, automate
@@ -21,7 +21,7 @@ export function Footer() {
               href="https://www.linkedin.com"
               target="_blank"
               rel="noreferrer noopener"
-              aria-label="NovaFlow on LinkedIn"
+              aria-label="KaizuoDev on LinkedIn"
               className="grid h-10 w-10 place-items-center rounded-full border border-border bg-background hover:bg-secondary transition-colors"
             >
               <Linkedin className="h-4 w-4" />
@@ -30,7 +30,7 @@ export function Footer() {
               href="https://github.com"
               target="_blank"
               rel="noreferrer noopener"
-              aria-label="NovaFlow on GitHub"
+              aria-label="KaizuoDev on GitHub"
               className="grid h-10 w-10 place-items-center rounded-full border border-border bg-background hover:bg-secondary transition-colors"
             >
               <Github className="h-4 w-4" />
@@ -65,7 +65,7 @@ export function Footer() {
       </div>
       <div className="border-t border-border">
         <div className="container-page py-6 flex flex-col md:flex-row items-center justify-between gap-3 text-sm text-muted-foreground">
-          <p>© {new Date().getFullYear()} NovaFlow, Inc. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} KaizuoDev. All rights reserved.</p>
           <p>Made for teams that build the future.</p>
         </div>
       </div>

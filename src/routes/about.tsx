@@ -7,13 +7,13 @@ import { Reveal } from "@/components/site/Section";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About — NovaFlow" },
+      { title: "About — KaizuoDev" },
       {
         name: "description",
         content:
-          "NovaFlow builds the modern productivity platform for teams. Learn about our mission, values, and the team behind the product.",
+          "KaizuoDev builds the modern productivity platform for teams. Learn about our mission, values, and the team behind the product.",
       },
-      { property: "og:title", content: "About — NovaFlow" },
+      { property: "og:title", content: "About — KaizuoDev" },
       {
         property: "og:description",
         content:
@@ -35,7 +35,7 @@ const values = [
   },
   {
     title: "Teams win together",
-    body: "Work is a team sport. NovaFlow is built to make collaboration feel effortless — inside your company and with ours.",
+    body: "Work is a team sport. KaizuoDev is built to make collaboration feel effortless — inside your company and with ours.",
   },
 ];
 
@@ -45,7 +45,7 @@ function AboutPage() {
       <PageHero
         eyebrow="About"
         title="We're building the future of work."
-        description="NovaFlow was founded by product and infrastructure operators who believed teams deserved better tools. Today we help thousands of organizations plan, build, and grow together."
+        description="KaizuoDev was founded by product and infrastructure operators who believed teams deserved better tools. Today we help thousands of organizations plan, build, and grow together."
       />
 
       <section className="py-20">

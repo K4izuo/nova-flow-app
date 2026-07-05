@@ -70,7 +70,7 @@ function LoginPage() {
   return (
     <AuthLayout
       title="Welcome back"
-      subtitle="Sign in to continue to your NovaFlow workspace."
+      subtitle="Sign in to continue to your KaizuoDev workspace."
       footer={
         <>
           Don't have an account?{" "}

@@ -78,7 +78,7 @@ function GeneralPanel() {
     <SettingsCard title="Workspace" description="General information about your workspace.">
       <form onSubmit={save} className="space-y-5">
         <FormField label="Workspace name" htmlFor="workspace-name">
-          <input id="workspace-name" defaultValue="NovaFlow, Inc." className={inputClass()} />
+          <input id="workspace-name" defaultValue="KaizuoDev" className={inputClass()} />
         </FormField>
         <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
           <FormField label="Timezone" htmlFor="timezone">
@@ -255,7 +255,7 @@ function AppearancePanel() {
   ];
 
   return (
-    <SettingsCard title="Appearance" description="Customize how NovaFlow looks on your device.">
+    <SettingsCard title="Appearance" description="Customize how KaizuoDev looks on your device.">
       <div className="grid grid-cols-2 gap-4 sm:max-w-md">
         {options.map((opt) => (
           <button

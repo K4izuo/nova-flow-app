@@ -7,17 +7,17 @@ import { PageHero } from "@/components/site/PageHero";
 export const Route = createFileRoute("/pricing")({
   head: () => ({
     meta: [
-      { title: "Pricing — NovaFlow" },
+      { title: "Pricing — KaizuoDev" },
       {
         name: "description",
         content:
           "Simple, transparent pricing for teams of every size. Start free, upgrade when you're ready. No hidden fees.",
       },
-      { property: "og:title", content: "Pricing — NovaFlow" },
+      { property: "og:title", content: "Pricing — KaizuoDev" },
       {
         property: "og:description",
         content:
-          "Simple, transparent pricing for teams of every size. Start free with NovaFlow.",
+          "Simple, transparent pricing for teams of every size. Start free with KaizuoDev.",
       },
     ],
   }),

@@ -72,7 +72,7 @@ export function Hero() {
             <div className="relative rounded-3xl border border-border bg-background/60 p-2 shadow-elevated backdrop-blur">
               <img
                 src={heroImage}
-                alt="NovaFlow workspace with dashboards, workflow automations, and project cards"
+                alt="KaizuoDev workspace with dashboards, workflow automations, and project cards"
                 width={1280}
                 height={1024}
                 className="w-full h-auto rounded-2xl"

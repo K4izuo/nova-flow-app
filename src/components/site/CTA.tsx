@@ -19,7 +19,7 @@ export function CTA() {
               Ready to simplify the way your team works?
             </h2>
             <p className="mx-auto mt-4 max-w-xl text-white/85">
-              Join thousands of teams using NovaFlow to plan, build, and grow —
+              Join thousands of teams using KaizuoDev to plan, build, and grow —
               from ambitious startups to global enterprises.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row justify-center gap-3">

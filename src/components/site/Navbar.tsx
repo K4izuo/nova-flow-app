@@ -35,11 +35,11 @@ export function Navbar() {
         aria-label="Primary"
         className="container-page flex h-16 items-center justify-between"
       >
-        <Link to="/" className="flex items-center gap-2 group" aria-label="NovaFlow home">
+        <Link to="/" className="flex items-center gap-2 group" aria-label="KaizuoDev home">
           <span className="grid h-9 w-9 place-items-center rounded-xl bg-gradient-brand shadow-glow">
             <Sparkles className="h-4 w-4 text-white" aria-hidden />
           </span>
-          <span className="text-lg font-semibold tracking-tight">NovaFlow</span>
+          <span className="text-lg font-semibold tracking-tight">KaizuoDev</span>
         </Link>
 
         <ul className="hidden md:flex items-center gap-1">

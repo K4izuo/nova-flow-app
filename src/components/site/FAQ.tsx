@@ -5,20 +5,20 @@ import { SectionHeader } from "./Section";
 
 const faqs = [
   {
-    q: "How does NovaFlow's pricing work?",
+    q: "How does KaizuoDev's pricing work?",
     a: "Every plan starts with a free 14-day trial of Professional — no credit card required. After the trial you can stay on the Starter plan for free, upgrade to Professional or Business per user per month, or talk to our team about a custom Enterprise agreement.",
   },
   {
-    q: "How does NovaFlow keep our data secure?",
-    a: "NovaFlow is SOC 2 Type II certified with encryption in transit and at rest, SSO/SAML, SCIM provisioning, granular role-based permissions, and full audit logging. Enterprise customers can add data residency, custom DPAs, and advanced compliance controls.",
+    q: "How does KaizuoDev keep our data secure?",
+    a: "KaizuoDev is SOC 2 Type II certified with encryption in transit and at rest, SSO/SAML, SCIM provisioning, granular role-based permissions, and full audit logging. Enterprise customers can add data residency, custom DPAs, and advanced compliance controls.",
   },
   {
     q: "How long does onboarding take?",
     a: "Most teams are up and running the same day. We ship best-practice templates for product, ops, customer success, and more — plus a guided setup that adapts to how your team already works. Business and Enterprise plans include dedicated onboarding support.",
   },
   {
-    q: "Which tools does NovaFlow integrate with?",
-    a: "NovaFlow connects with 80+ tools out of the box, including Slack, Microsoft Teams, GitHub, GitLab, Google Workspace, Figma, Notion, Salesforce, HubSpot, and Zapier. A public API and webhooks let you build custom integrations for anything else.",
+    q: "Which tools does KaizuoDev integrate with?",
+    a: "KaizuoDev connects with 80+ tools out of the box, including Slack, Microsoft Teams, GitHub, GitLab, Google Workspace, Figma, Notion, Salesforce, HubSpot, and Zapier. A public API and webhooks let you build custom integrations for anything else.",
   },
   {
     q: "What kind of support do you offer?",
@@ -35,7 +35,7 @@ export function FAQ() {
         <SectionHeader
           eyebrow="FAQ"
           title="Frequently asked questions."
-          description="Everything you need to know before getting started with NovaFlow."
+          description="Everything you need to know before getting started with KaizuoDev."
         />
 
         <div className="mx-auto mt-12 max-w-3xl divide-y divide-border rounded-3xl border border-border bg-background shadow-soft">

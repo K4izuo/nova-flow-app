@@ -37,7 +37,7 @@ export function AuthLayout({
           <span className="grid h-9 w-9 place-items-center rounded-xl bg-white/15 backdrop-blur">
             <Sparkles className="h-4 w-4 text-white" aria-hidden />
           </span>
-          <span className="text-lg font-semibold tracking-tight text-white">NovaFlow</span>
+          <span className="text-lg font-semibold tracking-tight text-white">KaizuoDev</span>
         </Link>
 
         <motion.div
@@ -50,7 +50,7 @@ export function AuthLayout({
             Simplify the way your team builds and grows.
           </h1>
           <p className="mt-4 text-base text-white/80">
-            Join thousands of teams using NovaFlow to streamline workflows, automate the busywork,
+            Join thousands of teams using KaizuoDev to streamline workflows, automate the busywork,
             and collaborate from one intuitive workspace.
           </p>
 
@@ -67,7 +67,7 @@ export function AuthLayout({
         </motion.div>
 
         <p className="relative z-10 text-xs text-white/60">
-          © {new Date().getFullYear()} NovaFlow, Inc. All rights reserved.
+          © {new Date().getFullYear()} KaizuoDev. All rights reserved.
         </p>
       </div>
 
@@ -78,7 +78,7 @@ export function AuthLayout({
               <span className="grid h-9 w-9 place-items-center rounded-xl bg-gradient-brand shadow-glow">
                 <Sparkles className="h-4 w-4 text-white" aria-hidden />
               </span>
-              <span className="text-lg font-semibold tracking-tight text-foreground">NovaFlow</span>
+              <span className="text-lg font-semibold tracking-tight text-foreground">KaizuoDev</span>
             </Link>
           </div>
 

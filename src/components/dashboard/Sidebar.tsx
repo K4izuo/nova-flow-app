@@ -39,7 +39,7 @@ function SidebarContent({ onNavigate }: { onNavigate?: () => void }) {
         <span className="grid h-9 w-9 place-items-center rounded-xl bg-gradient-brand shadow-glow">
           <Sparkles className="h-4 w-4 text-white" aria-hidden />
         </span>
-        <span className="text-lg font-semibold tracking-tight text-foreground">NovaFlow</span>
+        <span className="text-lg font-semibold tracking-tight text-foreground">KaizuoDev</span>
       </Link>
 
       <nav className="mt-2 flex-1 space-y-1 overflow-y-auto px-3">

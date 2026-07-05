@@ -34,7 +34,7 @@ function HelpPage() {
           </div>
         </button>
         <a
-          href="mailto:support@novaflow.io"
+          href="mailto:ryusei.gates@kaizuo.dev"
           className="flex items-center gap-4 rounded-3xl border border-border bg-background p-6 text-left shadow-soft transition-all hover:-translate-y-0.5 hover:shadow-elevated"
         >
           <span className="grid h-12 w-12 shrink-0 place-items-center rounded-2xl bg-accent text-[color:var(--accent-solid)]">
@@ -42,7 +42,7 @@ function HelpPage() {
           </span>
           <div>
             <p className="font-medium text-foreground">Email support</p>
-            <p className="text-sm text-muted-foreground">support@novaflow.io</p>
+            <p className="text-sm text-muted-foreground">ryusei.gates@kaizuo.dev</p>
           </div>
         </a>
       </div>

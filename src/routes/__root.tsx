@@ -18,7 +18,7 @@ import { AuthProvider } from "@/contexts/AuthContext";
 import { ThemeProvider } from "@/contexts/ThemeContext";
 import { ToastProvider } from "@/contexts/ToastContext";
 
-const THEME_INIT_SCRIPT = `try{var t=localStorage.getItem('novaflow.theme');if(t==='dark')document.documentElement.classList.add('dark');}catch(e){}`;
+const THEME_INIT_SCRIPT = `try{var t=localStorage.getItem('kaizuodev.theme');if(t==='dark')document.documentElement.classList.add('dark');}catch(e){}`;
 
 function isAppShellPath(pathname: string) {
   return (
@@ -96,15 +96,15 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { name: "theme-color", content: "#5B6CFF" },
-      { title: "NovaFlow — Simplify the Way Teams Build and Grow" },
+      { title: "KaizuoDev — Simplify the Way Teams Build and Grow" },
       {
         name: "description",
         content:
-          "NovaFlow is the modern productivity platform for teams to streamline workflows, automate work, and collaborate from one intuitive workspace.",
+          "KaizuoDev is the modern productivity platform for teams to streamline workflows, automate work, and collaborate from one intuitive workspace.",
       },
-      { name: "author", content: "NovaFlow" },
-      { property: "og:site_name", content: "NovaFlow" },
-      { property: "og:title", content: "NovaFlow — Simplify the Way Teams Build and Grow" },
+      { name: "author", content: "KaizuoDev" },
+      { property: "og:site_name", content: "KaizuoDev" },
+      { property: "og:title", content: "KaizuoDev — Simplify the Way Teams Build and Grow" },
       {
         property: "og:description",
         content:
@@ -112,7 +112,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:title", content: "NovaFlow — Simplify the Way Teams Build and Grow" },
+      { name: "twitter:title", content: "KaizuoDev — Simplify the Way Teams Build and Grow" },
       {
         name: "twitter:description",
         content:

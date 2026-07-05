@@ -6,7 +6,7 @@ import t3 from "@/assets/testimonial-3.jpg";
 const items = [
   {
     quote:
-      "NovaFlow replaced four tools in our stack. Our team ships faster and finally has one source of truth for every project.",
+      "KaizuoDev replaced four tools in our stack. Our team ships faster and finally has one source of truth for every project.",
     name: "Sofia Reyes",
     role: "Head of Operations",
     company: "Northwind Labs",
@@ -37,7 +37,7 @@ export function Testimonials() {
         <SectionHeader
           eyebrow="Loved by modern teams"
           title="What our customers are saying."
-          description="Thousands of teams rely on NovaFlow every day to plan, build, and grow together."
+          description="Thousands of teams rely on KaizuoDev every day to plan, build, and grow together."
         />
 
         <div className="mt-14 grid gap-5 md:grid-cols-3">

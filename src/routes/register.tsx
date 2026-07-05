@@ -74,7 +74,7 @@ function RegisterPage() {
     setLoading(true);
     try {
       await register(parsed.data as FormValues);
-      toast({ title: "Account created", description: "Welcome to NovaFlow!", variant: "success" });
+      toast({ title: "Account created", description: "Welcome to KaizuoDev!", variant: "success" });
       navigate({ to: "/dashboard" });
     } catch (err) {
       setFormError(err instanceof Error ? err.message : "Something went wrong. Please try again.");

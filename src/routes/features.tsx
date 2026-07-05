@@ -7,13 +7,13 @@ import { PageHero } from "@/components/site/PageHero";
 export const Route = createFileRoute("/features")({
   head: () => ({
     meta: [
-      { title: "Features — NovaFlow" },
+      { title: "Features — KaizuoDev" },
       {
         name: "description",
         content:
-          "Explore NovaFlow's features: smart workspaces, workflow automation, team collaboration, analytics, security, and 80+ integrations.",
+          "Explore KaizuoDev's features: smart workspaces, workflow automation, team collaboration, analytics, security, and 80+ integrations.",
       },
-      { property: "og:title", content: "Features — NovaFlow" },
+      { property: "og:title", content: "Features — KaizuoDev" },
       {
         property: "og:description",
         content:
