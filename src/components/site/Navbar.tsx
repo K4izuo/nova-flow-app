@@ -59,7 +59,7 @@ export function Navbar() {
 
         <div className="hidden md:flex items-center gap-2">
           <Link
-            to="/contact"
+            to="/login"
             className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors px-3 py-2"
           >
             Sign in
